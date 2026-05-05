@@ -2,6 +2,7 @@ import React, { memo, lazy, Suspense } from "react";
 import typing from "../assets/type.jpeg";
 import weather_check from "../assets/weather.jpeg";
 import fit from "../assets/fitlife.jpeg";
+import roadfix from "../assets/roadfix.webp";
 import { ExternalLink, Github, ArrowUpRight, Code2 } from "lucide-react";
 
 // Lazy load the image component for better performance
@@ -16,20 +17,21 @@ const LazyImage = lazy(() =>
 // Projects data
 const projects = [
 	{
+		title: "RoadFix",
+		description:
+			"A full-stack citizen road issue reporting platform empowering users to report infrastructure problems with live map pinning, image uploads, and real-time dashboard.",
+		image: roadfix,
+		tech: ["Node.js", "Express", "MongoDB", "Leaflet.js", "JavaScript"],
+		demo: "https://roadfix-new.vercel.app/",
+		code: "https://github.com/Rashmijoshi18/roadfix",
+	},
+	{
 		title: "TypeMaster",
 		description: "A typing-practice web app that measures WPM and accuracy in real-time via customizable tests.",
 		image: typing,
 		tech: ["React", "Tailwind CSS", "JavaScript"],
 		demo: "https://type-master-seven.vercel.app/",
 		code: "https://github.com/Rashmijoshi18/type-master",
-	},
-	{
-		title: "Weather Check",
-		description: "Real-time weather updates and forecasts based on user location with beautiful UI.",
-		image: weather_check,
-		tech: ["JavaScript", "API", "HTML", "CSS"],
-		demo: "https://weather-check-nine-lovat.vercel.app/",
-		code: "https://github.com/Rashmijoshi18/weather-check",
 	},
 	{
 		title: "FitLife",
