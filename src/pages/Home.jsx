@@ -64,9 +64,9 @@ console.log('Welcome to my digital world! 🚀');`;
 				{/* Stats Section */}
 				<section className="grid grid-cols-2 md:grid-cols-4 gap-4 my-12 fade-in">
 					{[
-						{ num: "14+", label: "Months Learning Code" },
+						{ num: "2+", label: "Years Learning Code" },
 						{ num: "10+", label: "Projects Built" },
-						{ num: "250+", label: "Commits Made" },
+						{ num: "350+", label: "Commits Made" },
 						{ num: "100%", label: "Passion for Learning" },
 					].map((stat, idx) => (
 						<div
