@@ -12,7 +12,7 @@ export default function Home() {
   role: 'Full Stack Developer',
   location: 'India',
   specialties: ['React', 'Node.js', 'JavaScript', 'Git', 'Tailwind CSS', 'Bootstrap'],
-  currentStatus: '2nd Year Student',
+  currentStatus: '3rd Year Student',
   passion: 'Building scalable web applications',
   currentFocus: 'Modern web technologies & UX'
 };
