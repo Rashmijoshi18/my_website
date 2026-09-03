@@ -80,14 +80,14 @@ console.log('Crafting scalable & meaningful solutions 🚀');`;
 
 	const educationData = [
 		{
-			period: "2016-2020",
+			// period: "2016-2020",
 			degree: "Bachelor of Technology in Computer Science and Engineering",
 			institution: "Lovely Professional University",
 			location: "Punjab, India",
 			description: "Focus on full-stack development and algorithms.",
 		},
 		{
-			period: "2020-2022",
+			// period: "2020-2022",
 			degree: "Higher Secondary Education",
 			institution: "New Adarsh Senior Secondary School",
 			location: "Punjab, India",

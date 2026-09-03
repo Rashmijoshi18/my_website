@@ -2,7 +2,7 @@ import React, { memo, lazy, Suspense } from "react";
 import typing from "../assets/type.jpeg";
 import weather_check from "../assets/weather.jpeg";
 import fit from "../assets/fitlife.jpeg";
-import roadfix from "../assets/roadfix.webp";
+import civicconnect from "../assets/civicconnect.jpg";
 import { ExternalLink, Github, ArrowUpRight, Code2 } from "lucide-react";
 
 // Lazy load the image component for better performance
@@ -17,13 +17,13 @@ const LazyImage = lazy(() =>
 // Projects data
 const projects = [
 	{
-		title: "RoadFix",
+		title: "CivicConnect",
 		description:
-			"A full-stack citizen road issue reporting platform empowering users to report infrastructure problems with live map pinning, image uploads, and real-time dashboard.",
-		image: roadfix,
-		tech: ["Node.js", "Express", "MongoDB", "Leaflet.js", "JavaScript"],
-		demo: "https://roadfix-new.vercel.app/",
-		code: "https://github.com/Rashmijoshi18/roadfix",
+			"A full-stack civic engagement platform empowering citizens to report community issues with live map pinning, photo uploads, real-time status tracking, and a government dashboard to manage and resolve reported problems.",
+		image: civicconnect,
+		tech: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "PostgreSQL", "Prisma", "Cloudinary"],
+		demo: "https://civic-connect-rs.vercel.app/",
+		code: "https://github.com/Rashmijoshi18/civic_connect",
 	},
 	{
 		title: "TypeMaster",
