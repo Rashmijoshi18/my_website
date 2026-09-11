@@ -42,6 +42,7 @@ console.log('Welcome to my digital world! 🚀');`;
 						</p>
 					</div>
 
+					{/* CTA Buttons */}
 					<div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start items-center pt-2">
 						<a
 							href={My_resume}
