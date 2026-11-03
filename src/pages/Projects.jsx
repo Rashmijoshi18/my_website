@@ -1,6 +1,5 @@
 import React, { memo, lazy, Suspense } from "react";
 import typing from "../assets/type.jpeg";
-import weather_check from "../assets/weather.jpeg";
 import fit from "../assets/fitlife.jpeg";
 import civicconnect from "../assets/civicconnect.jpg";
 import { ExternalLink, Github, ArrowUpRight, Code2 } from "lucide-react";
@@ -17,6 +16,14 @@ const LazyImage = lazy(() =>
 // Projects data
 const projects = [
 	{
+		title: "FitLife",
+		description: "Modern fitness platform offering workout programs to support your healthy lifestyle.",
+		image: fit,
+		tech: ["React", "Tailwind CSS", "JavaScript"],
+		demo: "https://fitlife-liart.vercel.app/",
+		code: "https://github.com/Rashmijoshi18/fitlife",
+	},
+	{
 		title: "CivicConnect",
 		description:
 			"A full-stack civic engagement platform empowering citizens to report community issues with live map pinning, photo uploads, real-time status tracking, and a government dashboard to manage and resolve reported problems.",
@@ -32,14 +39,6 @@ const projects = [
 		tech: ["React", "Tailwind CSS", "JavaScript"],
 		demo: "https://type-master-seven.vercel.app/",
 		code: "https://github.com/Rashmijoshi18/type-master",
-	},
-	{
-		title: "FitLife",
-		description: "Modern fitness platform offering workout programs to support your healthy lifestyle.",
-		image: fit,
-		tech: ["React", "Tailwind CSS", "JavaScript"],
-		demo: "https://fitlife-liart.vercel.app/",
-		code: "https://github.com/Rashmijoshi18/fitlife",
 	},
 ];
 
