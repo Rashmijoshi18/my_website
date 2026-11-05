@@ -17,7 +17,6 @@ import {
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 
-// ✅ Memoized repeated item components
 const StrengthItem = memo(({ icon: Icon, text }) => (
 	<div className="flex items-center transition duration-300 hover:translate-x-1">
 		<div className="w-6 h-6 bg-primary rounded flex items-center justify-center mr-3">
